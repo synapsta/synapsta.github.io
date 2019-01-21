@@ -196,7 +196,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: 'Raleway', sans-serif;
+	font-family:  "Helvetica Neue",Sans-Serif;
 }
 
 h5,
@@ -7478,7 +7478,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box .fbox-icon i,
 .feature-box .fbox-icon img {
 	border-radius: 50%;
-	background-color: #1ABC9C;
+	background-color: #58ACFA;
 }
 
 .feature-box .fbox-icon i {
@@ -7525,7 +7525,7 @@ body:not(.device-touch) .button.button-full strong {
 -----------------------------------------------------------------*/
 
 .feature-box.fbox-outline .fbox-icon {
-	border: 1px solid #1ABC9C;
+	border: 1px solid #58ACFA ;
 	border-radius: 50%;
 	padding: 3px;
 }
@@ -7593,7 +7593,7 @@ body:not(.device-touch) .button.button-full strong {
 -----------------------------------------------------------------*/
 
 .feature-box.fbox-border .fbox-icon {
-	border: 1px solid #1ABC9C;
+	border: 1px solid #58ACFA ;
 	border-radius: 50%;
 }
 
@@ -7601,8 +7601,8 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-border .fbox-icon img {
 	border: none;
 	background-color: transparent !important;
-	color: #1ABC9C;
-}
+	color: #58ACFA ;
+}feature-box .fbox-icon i
 
 .feature-box.fbox-border .fbox-icon { padding: 0; }
 
