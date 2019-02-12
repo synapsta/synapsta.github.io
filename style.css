@@ -1061,7 +1061,7 @@ body.stretched #header.full-header .container {
 	max-width: 100%;
 }
 
-#logo a.standard-logo { display: block;  }
+#logo a.standard-logo { display: block; }
 
 #logo a.retina-logo { display: none; 
 }
@@ -2107,6 +2107,10 @@ body.top-search-open #top-account { opacity: 0; }
 #header.sticky-header:not(.static-sticky) #header-wrap,
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img { height: 70px; padding-bottom: 20px; }
 
+@media only screen and (max-width: 700px) {
+	#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img { height: 90px; padding-top: 20px; padding-bottom: 10px;  }
+
+}
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
 	padding-top: 19px;
 	padding-bottom: 19px;
