@@ -1038,12 +1038,15 @@ body.stretched #header.full-header .container {
 	font-size: 36px;
 	line-height: 100%;
 	margin-right: 40px;
+	padding-bottom: 10px;
 }
 
 #header.full-header #logo {
 	padding-right: 30px;
 	margin-right: 30px;
 	border-right: 1px solid #EEE;
+	padding-top: 10px;
+	
 }
 
 #header.transparent-header.full-header #logo { border-right-color: rgba(0,0,0,0.1); }
@@ -1060,7 +1063,8 @@ body.stretched #header.full-header .container {
 
 #logo a.standard-logo { display: block; }
 
-#logo a.retina-logo { display: none; }
+#logo a.retina-logo { display: none; 
+padding-top: 30px;}
 
 
 /* ----------------------------------------------------------------
@@ -2101,7 +2105,7 @@ body.top-search-open #top-account { opacity: 0; }
 
 #header.sticky-header:not(.static-sticky),
 #header.sticky-header:not(.static-sticky) #header-wrap,
-#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img { height: 60px; }
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img { height: 70px; padding-bottom: 20px; }
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
 	padding-top: 19px;
