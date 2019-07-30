@@ -10518,7 +10518,7 @@ blockquote.float-right {
 	-webkit-tap-highlight-color:transparent;
 	position:relative;
 	z-index:1;
-	width: 0%;
+	width: 100%;
 }
 
 .owl-carousel .owl-stage {
