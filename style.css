@@ -407,7 +407,6 @@ span.middot {
 
 .bgcolor,
 .bgcolor #header-wrap { background-color: #1ABC9C !important; }
-
 .color { color: #58ACFA !important; }
 
 .border-color { border-color: #1ABC9C !important; }
@@ -2702,7 +2701,10 @@ body:not(.device-touch) #page-menu nav li a {
 /* ----------------------------------------------------------------
 	Side Push Panel
 -----------------------------------------------------------------*/
-
+.services{
+	background-color: #006699;
+	color: #EEE;
+}
 body.side-push-panel { overflow-x: hidden; }
 
 #side-panel {
@@ -7511,7 +7513,9 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .feature-box .before-heading { font-size: 14px; }
-
+.before-heading-color{
+	color: #EEE !important; 
+}
 
 /* Feature Box - Icon Large
 -----------------------------------------------------------------*/
