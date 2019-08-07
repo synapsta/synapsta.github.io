@@ -184,7 +184,9 @@ iframe { border: none !important; }
 /* ----------------------------------------------------------------
 	Basic Layout Styles
 -----------------------------------------------------------------*/
-
+.justify{
+	text-align:justify;
+}
 
 h1,
 h2,
@@ -196,7 +198,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family:  "Helvetica Neue",Sans-Serif;
+	font-family:  'Lato', sans-serif;
 }
 
 h5,
@@ -210,9 +212,12 @@ h3 { font-size: 24px; }
 
 h4 { font-size: 18px; }
 
-h5 { font-size: 14px; }
+h5 { font-size: 14px;
+	 }
 
-h6 { font-size: 12px; }
+h6 { font-size: 12px; 
+	font-family:  'Lato', sans-serif;
+}
 
 h4 { font-weight: 600; }
 
